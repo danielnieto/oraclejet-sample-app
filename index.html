@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="UTF8"/>
+    <title>The JET Movie App</title>
+    <link rel="stylesheet" href="css/libs/oj/v1.1.2/alta/oj-alta-min.css" type="text/css"/>
+    <script data-main="js/main" src="js/libs/require/require.js"></script>
+  </head>
+  <body>
+    <div id="globalBody" style="display: none">
+      <header id="headerWrapper" role="banner" data-bind="ojModule: {viewName: 'header'}"></header>
+      <div class="oj-row oj-md-center">
+        <div class="oj-md-6 oj-col">
+          <!-- This is where the views will be loaded -->
+          <div id="mainContainer" role="main" data-bind="ojModule: router.moduleConfig"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
