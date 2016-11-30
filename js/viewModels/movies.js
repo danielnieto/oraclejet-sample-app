@@ -1,4 +1,4 @@
-define(['ojs/ojcore', 'knockout', 'MovieFactory', 'ojs/ojmodel', 'ojs/ojtable', 'ojs/ojbutton'],
+define(['ojs/ojcore', 'knockout', 'MovieFactory', 'ojs/ojmodel', 'ojs/ojtable', 'ojs/ojbutton', "ojs/ojcollectiontabledatasource"],
 function(oj, ko, MovieFactory) {
 
   var viewModel = {
